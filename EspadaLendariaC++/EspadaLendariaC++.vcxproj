@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Jogador.cpp" />
+    <ClCompile Include="Jogador1.cpp" />
+    <ClCompile Include="Jogador2.cpp" />
+    <ClCompile Include="Mago.cpp" />
+    <ClCompile Include="Animacao.cpp" />
+    <ClCompile Include="Arma.cpp" />
+    <ClCompile Include="Botao.cpp" />
+    <ClCompile Include="BotaoTexto.cpp" />
+    <ClCompile Include="Camada.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="FotoSalvar.cpp" />
+    <ClCompile Include="Boss.cpp" />
+    <ClCompile Include="Ente.cpp" />
+    <ClCompile Include="Entidade.cpp" />
+    <ClCompile Include="Espinho.cpp" />
+    <ClCompile Include="Esqueleto.cpp" />
+    <ClCompile Include="Estado.cpp" />
+    <ClCompile Include="EstadoJogar.cpp" />
+    <ClCompile Include="EstadoMenu.cpp" />
+    <ClCompile Include="Fase.cpp" />
+    <ClCompile Include="FasePrimeira.cpp" />
+    <ClCompile Include="FaseSegunda.cpp" />
+    <ClCompile Include="Fundo.cpp" />
+    <ClCompile Include="GerenciadorArquivo.cpp" />
+    <ClCompile Include="GerenciadorColisao.cpp" />
+    <ClCompile Include="GerenciadorEstado.cpp" />
+    <ClCompile Include="GerenciadorEvento.cpp" />
+    <ClCompile Include="GerenciadorGrafico.cpp" />
+    <ClCompile Include="Imagem.cpp" />
+    <ClCompile Include="Inimigo.cpp" />
+    <ClCompile Include="ListaEntidade.cpp" />
+    <ClCompile Include="ListaObservador.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="MenuCarregarJogo.cpp" />
+    <ClCompile Include="MenuColocacao.cpp" />
+    <ClCompile Include="MenuFase.cpp" />
+    <ClCompile Include="MenuGameOver.cpp" />
+    <ClCompile Include="MenuPausa.cpp" />
+    <ClCompile Include="MenuPrincipal.cpp" />
+    <ClCompile Include="MenuQntJogadores.cpp" />
+    <ClCompile Include="MenuSalvarJogada.cpp" />
+    <ClCompile Include="Nivel.cpp" />
+    <ClCompile Include="Observador.cpp" />
+    <ClCompile Include="ObservadorFase.cpp" />
+    <ClCompile Include="ObservadorJogador.cpp" />
+    <ClCompile Include="ObservadorMenu.cpp" />
+    <ClCompile Include="Obstaculo.cpp" />
+    <ClCompile Include="Personagem.cpp" />
+    <ClCompile Include="Plataforma.cpp" />
+    <ClCompile Include="PlataformaMovel.cpp" />
+    <ClCompile Include="Principal.cpp" />
+    <ClCompile Include="Projetil.cpp" />
+    <ClCompile Include="Texto.cpp" />
+    <ClCompile Include="TextoAnimado.cpp" />
+    <ClCompile Include="Vida.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Jogador1.hpp" />
+    <ClInclude Include="Jogador2.hpp" />
+    <ClInclude Include="Mago.hpp" />
+    <ClInclude Include="Animacao.hpp" />
+    <ClInclude Include="Arma.hpp" />
+    <ClInclude Include="Botao.hpp" />
+    <ClInclude Include="BotaoTexto.hpp" />
+    <ClInclude Include="Camada.hpp" />
+    <ClInclude Include="Camera.hpp" />
+    <ClInclude Include="FotoSalvar.hpp" />
+    <ClInclude Include="Boss.hpp" />
+    <ClInclude Include="Elemento.hpp" />
+    <ClInclude Include="Ente.hpp" />
+    <ClInclude Include="Entidade.hpp" />
+    <ClInclude Include="Espinho.hpp" />
+    <ClInclude Include="Esqueleto.hpp" />
+    <ClInclude Include="Estado.hpp" />
+    <ClInclude Include="EstadoJogar.hpp" />
+    <ClInclude Include="EstadoMenu.hpp" />
+    <ClInclude Include="Fase.hpp" />
+    <ClInclude Include="FasePrimeira.hpp" />
+    <ClInclude Include="FaseSegunda.hpp" />
+    <ClInclude Include="Fundo.hpp" />
+    <ClInclude Include="GerenciadorArquivo.hpp" />
+    <ClInclude Include="GerenciadorColisao.hpp" />
+    <ClInclude Include="GerenciadorEstado.hpp" />
+    <ClInclude Include="GerenciadorEvento.hpp" />
+    <ClInclude Include="GerenciadorGrafico.hpp" />
+    <ClInclude Include="IDs.hpp" />
+    <ClInclude Include="Imagem.hpp" />
+    <ClInclude Include="Inimigo.hpp" />
+    <ClInclude Include="Jogador.hpp" />
+    <ClInclude Include="Lista.hpp" />
+    <ClInclude Include="ListaEntidade.hpp" />
+    <ClInclude Include="ListaObservador.hpp" />
+    <ClInclude Include="Menu.hpp" />
+    <ClInclude Include="MenuCarregarJogo.hpp" />
+    <ClInclude Include="MenuColocacao.hpp" />
+    <ClInclude Include="MenuFase.hpp" />
+    <ClInclude Include="MenuGameOver.hpp" />
+    <ClInclude Include="MenuPausa.hpp" />
+    <ClInclude Include="MenuPrincipal.hpp" />
+    <ClInclude Include="MenuQntjogadores.hpp" />
+    <ClInclude Include="MenuSalvarJogada.hpp" />
+    <ClInclude Include="Nivel.hpp" />
+    <ClInclude Include="Observador.hpp" />
+    <ClInclude Include="ObservadorFase.hpp" />
+    <ClInclude Include="ObservadorJogador.hpp" />
+    <ClInclude Include="ObservadorMenu.hpp" />
+    <ClInclude Include="Obstaculo.hpp" />
+    <ClInclude Include="Personagem.hpp" />
+    <ClInclude Include="Plataforma.hpp" />
+    <ClInclude Include="PlataformaMovel.hpp" />
+    <ClInclude Include="Principal.hpp" />
+    <ClInclude Include="Projetil.hpp" />
+    <ClInclude Include="Texto.hpp" />
+    <ClInclude Include="TextoAnimado.hpp" />
+    <ClInclude Include="Vida.hpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{ffe1fe91-5770-4f08-aafe-6bf66e9aaa47}</ProjectGuid>
+    <RootNamespace>EspadaLendariaC</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Gabriel\UTFPR\Técnicas de Programação C++\JogosC++\SFML-2.6.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Gabriel\UTFPR\Técnicas de Programação C++\JogosC++\SFML-2.6.1\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-audio-d.lib;sfml-network-d.lib;sfml-system-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Gabriel\UTFPR\Técnicas de Programação C++\JogosC++\SFML-2.6.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Gabriel\UTFPR\Técnicas de Programação C++\JogosC++\SFML-2.6.1\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics.lib;sfml-window.lib;sfml-audio.lib;sfml-network.lib;sfml-system.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>SFML_STATIC;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\SFML-2.6.1\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\SFML-2.6.1\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;freetype.lib;winmm.lib;gdi32.lib;openal32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;ws2_32.lib;sfml-window-s-d.lib;sfml-graphics-s-d.lib;sfml-audio-s-d.lib;sfml-network-s-d.lib;sfml-system-s-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>SFML_STATIC;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\jogo6\SFML-2.6.1\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>D:\jogo6\SFML-2.6.1\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;freetype.lib;winmm.lib;gdi32.lib;openal32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;ws2_32.lib;sfml-window-s.lib;sfml-graphics-s.lib;sfml-audio-s.lib;sfml-network-s.lib;sfml-system-s.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
